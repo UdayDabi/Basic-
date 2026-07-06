@@ -1,6 +1,12 @@
-money =105
+money = 99
 
 if money > 100:
-    print("You can't buy a coffee.")
+    print(" i can buy pizza ...")
+elif money > 90:
+    print(" i can buy burger ...")
+elif money > 80:
+    print(" i can buy sandwich ...")
 else:
-    print("You can buy a coffee.")
+    print(" i cannot buy any one ...")
+
+
