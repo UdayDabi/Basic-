@@ -1,20 +1,27 @@
-from itertools import permutations
 
-list = [10,20,30,40,50]
-list1=[60,70,80,90,100]
-new_list = list+list1
-print(new_list)
-# print(new_list[2:8])
-new_list.append(101)
-print(new_list)
-print(new_list.count(10))
-print(new_list.index(30))
-new_list.insert(10,110)
-print(new_list)
-new_list.remove(110)
-print(new_list)
-new_list.reverse()
-print(new_list)
-new_list.sort()
-print(new_list)
-print(min(new_list))
+list = [10,20,30,40,50,20,10]
+list1=[1,2,3,4,5]
+# list.append(60)
+print(list.count(20))
+print(list.index(30))
+
+list.insert(2,25)
+print(list)
+list.remove(20)
+print(list)
+list.reverse()
+print(list)
+list.sort()
+print(list)
+print(len(list))
+print(max(list))
+print(min(list))
+
+print(list[2:])
+l3=list+list1
+print(l3)
+# i=tuple(list)
+# print(i)
+
+
+
