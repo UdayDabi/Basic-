@@ -48,9 +48,10 @@ acc.set_balance(1000)
 print("Account Number:", acc.get_number())
 print("Account Type:", acc.get_account_type())
 print("Balance:", acc.get_balance())
-# acc.deposit(500)
+acc.deposit(500)
 acc.withdrawal(200)
-
-acc1 = Account()
+acc.withdrawal(2000)  # This will show insufficient funds message
+#
+# acc1 = Account()
 
 # print("\nPerforming transactions:")
