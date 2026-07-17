@@ -7,7 +7,7 @@ def readLine():
    # input_path = os.path.join("C:\\Users\\udayd\\OneDrive\\Desktop", "gmail.txt")
     #output_path = os.path.join("C:\\Users\\udayd\\OneDrive\\Desktop", "correct_gmail.txt")
 
-    input_file = open("C:\\Users\\udayd\\OneDrive\\Desktop\\gmail.txt", 'r')
+    input_file = open("D://IO//Email.txt", 'r')
     output_file = open("C:\\Users\\udayd\\OneDrive\\Desktop\\correct_gmail.txt", "w")
 
     for line in input_file:

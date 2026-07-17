@@ -1,5 +1,7 @@
 from abc import ABC, abstractmethod
 
+from cryptography.hazmat.primitives.ciphers import aead
+
 
 class Shape(ABC):
 
@@ -12,12 +14,15 @@ class Shape(ABC):
         pass
 
 
+
 class Rectangle(Shape):
     def __init__(self, length, width):
         self.length = length
         self.width = width
 
-
+    def area(self):
+        area = self.length * self.width
+        print(f"Area of Rectangle: {area}")
 
 #
 # # Example usage
